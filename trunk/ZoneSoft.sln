@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZoneSoft", "ZoneSoft\ZoneSoft.csproj", "{8FA5028C-B1F5-45FD-8299-35247392557C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "DAL\Models.csproj", "{A1AA6473-1E7F-45EE-94B1-2A1FF5D29ABB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Controllers", "BLL\Controllers.csproj", "{B53AC550-2D0D-475A-8B0C-3592040120C0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8FA5028C-B1F5-45FD-8299-35247392557C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FA5028C-B1F5-45FD-8299-35247392557C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FA5028C-B1F5-45FD-8299-35247392557C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FA5028C-B1F5-45FD-8299-35247392557C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1AA6473-1E7F-45EE-94B1-2A1FF5D29ABB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1AA6473-1E7F-45EE-94B1-2A1FF5D29ABB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1AA6473-1E7F-45EE-94B1-2A1FF5D29ABB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1AA6473-1E7F-45EE-94B1-2A1FF5D29ABB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B53AC550-2D0D-475A-8B0C-3592040120C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B53AC550-2D0D-475A-8B0C-3592040120C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B53AC550-2D0D-475A-8B0C-3592040120C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B53AC550-2D0D-475A-8B0C-3592040120C0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

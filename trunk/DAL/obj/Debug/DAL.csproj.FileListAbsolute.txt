@@ -1,0 +1,5 @@
+D:\JOIN\Zonedes\SOFT\QUAN_LY_KHACH_HANG-MYSQL\ZONESOFT\ZoneSoft\DAL\bin\Debug\DAL.dll
+D:\JOIN\Zonedes\SOFT\QUAN_LY_KHACH_HANG-MYSQL\ZONESOFT\ZoneSoft\DAL\bin\Debug\DAL.pdb
+D:\JOIN\Zonedes\SOFT\QUAN_LY_KHACH_HANG-MYSQL\ZONESOFT\ZoneSoft\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+D:\JOIN\Zonedes\SOFT\QUAN_LY_KHACH_HANG-MYSQL\ZONESOFT\ZoneSoft\DAL\obj\Debug\DAL.dll
+D:\JOIN\Zonedes\SOFT\QUAN_LY_KHACH_HANG-MYSQL\ZONESOFT\ZoneSoft\DAL\obj\Debug\DAL.pdb

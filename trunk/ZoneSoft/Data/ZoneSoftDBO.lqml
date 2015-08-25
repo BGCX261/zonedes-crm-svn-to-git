@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database Name="zonesoft" EntityNamespace="ZonesoftContext" ContextNamespace="ZonesoftContext" Class="ZonesoftDataContext" xmlns:ed="http://devart.com/schemas/EntityDeveloper/1.0" ed:Guid="1ac44fc6-ab30-4907-8edd-c880a0c63f00" Provider="Devart.Data.MySql.Linq.Provider.MySqlDataProvider, Devart.Data.MySql.Linq" Extended="true" xmlns="http://schemas.devart.com/linqconnect/mapping">
+  <Connection Mode="ConnectionString" ConnectionString="User Id=zonedes;Password=123456;Host=localhost;Database=zonesoft;Persist Security Info=True" Provider="Devart.Data.MySql" />
+  <Table Name="zonesoft.zone_setting" Member="ZoneSettings">
+    <Type Name="ZoneSetting" ed:Guid="79aee2dc-cecc-4cdb-ae6a-df53d1b90397">
+      <Column Name="setting_id" Member="SettingId" Type="System.Int32" AutoSync="OnInsert" DbType="INT(11) NOT NULL AUTO_INCREMENT" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" UpdateCheck="Always" Precision="11" ed:ValidateRequired="True" ed:Guid="1a131c34-b177-4a10-b0e0-8468bff9c448" />
+      <Column Name="setting_name" Member="SettingName" Type="System.String" DbType="VARCHAR(100) NOT NULL" CanBeNull="false" UpdateCheck="Never" MaxLength="100" Unicode="true" ed:ValidateMaxLength="100" ed:ValidateRequired="True" ed:Guid="2ae70744-a3e7-40b6-a73f-f2f4ec3b94f4" />
+      <Column Name="setting_note" Member="SettingNote" Type="System.String" DbType="VARCHAR(150) NOT NULL" CanBeNull="false" UpdateCheck="Never" MaxLength="150" Unicode="true" ed:ValidateMaxLength="150" ed:ValidateRequired="True" ed:Guid="2a8d261a-a76d-4753-97a5-a3ff27ef7c9e" />
+    </Type>
+  </Table>
+  <Table Name="zonesoft.zone_user" Member="ZoneUsers">
+    <Type Name="ZoneUser" ed:Guid="8ec446bf-a39c-4efa-8428-af040526fbee">
+      <Column Name="user_id" Member="UserId" Type="System.Int32" AutoSync="OnInsert" DbType="INT(11) NOT NULL AUTO_INCREMENT" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" UpdateCheck="Always" Precision="11" ed:ValidateRequired="True" ed:Guid="bb66da9f-44a4-4e95-bdb0-47834b6568c6" />
+      <Column Name="user_name" Member="UserName" Type="System.String" DbType="VARCHAR(100) NOT NULL" CanBeNull="false" UpdateCheck="Never" MaxLength="100" Unicode="true" ed:ValidateMaxLength="100" ed:ValidateRequired="True" ed:Guid="856e03e7-5f71-47c8-8a35-8e1700e52fea" />
+      <Column Name="user_pass" Member="UserPass" Type="System.String" DbType="VARCHAR(150) NOT NULL" CanBeNull="false" UpdateCheck="Never" MaxLength="150" Unicode="true" ed:ValidateMaxLength="150" ed:ValidateRequired="True" ed:Guid="a9da96dd-c2ba-46da-8dee-e28558d3e988" />
+      <Column Name="user_public" Member="UserPublic" Type="System.SByte" DbType="TINYINT(2) NOT NULL" CanBeNull="false" UpdateCheck="Never" DefaultValue="1" Precision="2" ed:ValidateRequired="True" ed:Guid="094ce2ed-6ae0-43b3-9ba8-454938c9c388" />
+      <Column Name="user_level" Member="UserLevel" Type="System.Int32" DbType="INT(10) NOT NULL" CanBeNull="false" UpdateCheck="Never" DefaultValue="1" Precision="10" ed:ValidateRequired="True" ed:Guid="b4314264-377a-4b01-8112-b046f78e966c" />
+      <Column Name="user_ceatedate" Member="UserCeatedate" Type="System.DateTime" DbType="TIMESTAMP NOT NULL" CanBeNull="false" UpdateCheck="Never" DefaultValue="CURRENT_TIMESTAMP" ed:ValidateRequired="True" ed:Guid="2dddbe7b-ff87-4f7b-a4d9-bb5395188d6d" />
+    </Type>
+  </Table>
+</Database>

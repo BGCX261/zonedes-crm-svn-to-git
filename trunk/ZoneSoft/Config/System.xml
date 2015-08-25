@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<System>
+  <Server>localhost</Server>
+  <DataBase>zonesoft</DataBase>
+  <UserName>zonedes</UserName>
+  <PassWord>123456</PassWord>
+</System>
